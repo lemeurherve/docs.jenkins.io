@@ -11,7 +11,7 @@
     "lint": "yamllint .",
     "postinstall": "npm run install-subfolders",
     "install-subfolders": "cd ui && npm install && cd ../playbook && npm install",
-    "build": "npm run build-ui && npm run-antora",
+    "build": "npm run build-ui && npm run build-antora",
     "build-ui": "cd ui && npm install && npx gulp bundle",
     "build-antora": "cd playbook && npm install && npx antora --fetch local-antora-playbook.yml",
     "clean": "rm -rf ui/build && rm -rf playbook/build",
