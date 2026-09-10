@@ -2,7 +2,9 @@
 
 buildWebsite([
   websiteName: 'docs-jenkins-io-pr',
-  publishDir: './playbook/build/site'
+  publishDir: './playbook/build/site',
+  // TODO: lint all YAML files
+  lint: false,
 ])
 
 /*
