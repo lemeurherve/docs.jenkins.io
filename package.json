@@ -15,7 +15,8 @@
     "build-ui": "cd ui && npm install && npx gulp bundle",
     "build-antora": "cd playbook && npm install && npx antora --fetch local-antora-playbook.yml",
     "clean": "rm -rf ui/build && rm -rf playbook/build",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "echo 'TODO: to be implemented'"
   },
   "keywords": [
     "Antora",
